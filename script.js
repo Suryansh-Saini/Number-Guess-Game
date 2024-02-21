@@ -1,4 +1,4 @@
-let randomNumber = parseInt(Math.random()*10+1)
+let randomNumber = parseInt(Math.random()*100+1)
 const userInput = document.getElementById('userInput')
 const submitBtn = document.getElementById('submitBtn')
 const newGameBtn = document.getElementById('newGameBtn')
