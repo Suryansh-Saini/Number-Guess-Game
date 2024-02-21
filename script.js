@@ -47,7 +47,7 @@ submitBtn.addEventListener('click', function(event) {
         newGameBtn.addEventListener('click', function(event) {
             event.preventDefault()
             userInput.value = ''
-            randomNumber = parseInt(Math.random()*10+1)
+            randomNumber = parseInt(Math.random()*100+1)
             totalGuesses = 10
             guessRem.innerHTML = `${totalGuesses}`
             prevGuess.innerHTML = ''
