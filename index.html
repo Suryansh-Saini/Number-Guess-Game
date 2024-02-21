@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-800 text-white font-serif text-center p-2 ">
+    <h1 class="text-4xl mt-8 lg:text-7xl">Number Guessing Game</h1>
+    <h1 class="mt-2 lg:text-2xl ">Try and guess a random number between 1 and 100.</h1>
+    <h1 class="lg:text-2xl">You have 10 attempts to guess the right number.</h1>
+    <h1 class="text-5xl mt-12 lg:text-7xl lg:mt-20 ">Guess A Number</h1>
+    <form>
+        <input type="text" class="my-5 border-4 border-black text-xl p-1 text-center text-black font-sans lg:text-3xl lg:border-8" id="userInput"><br>
+        <input type="button" value="Submit Guess" class="bg-black p-2 px-7 rounded-lg text-2xl lg:text-4xl" id="submitBtn">
+    </form>
+    <h1 class="mt-7 text-xl mx-5 lg:text-3xl">Previous Guesses: <span id="prevGuess"></span></h1>
+    <h1 class="text-xl lg:text-3xl">Guesses Remaining: <span id="guessRem">10</span></h1>
+    <h1 class="mt-5 text-xl mx-5 lg:text-4xl" id="messageBox"></h1>
+    <input type="button" value="Start New Game" class="mt-16 bg-white text-black p-2 px-16 rounded-lg text-2xl hidden lg:text-4xl " id="newGameBtn">
+    <script src="script.js"></script>
+</body>
+</html>
